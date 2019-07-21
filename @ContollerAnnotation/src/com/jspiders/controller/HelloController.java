@@ -13,10 +13,4 @@ public class HelloController {
 		return mav;
 	}
 	
-	/*@RequestMapping("/welcome1")
-	public ModelAndView helloworld1() {
-		ModelAndView mav=new ModelAndView("HelloPage");
-		mav.addObject("msg", "HelloWorld1");
-		return mav;
-	}*/
 }
